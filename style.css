@@ -119,6 +119,14 @@
 
   h2.title{
     font-weight: 800;
+    transition: all 2s ease;
+
+  }
+
+  h2.title:hover{
+    color: var(--YellowColor);
+    transition: all .9s ease;
+    cursor: pointer;
   }
 
   /***Main***/
@@ -151,6 +159,17 @@
     color: var(--BlackColor);
     font-weight: 800;
   }
+
+
+  /***Media Query****/
+
+  @media only screen and (max-width: 400px) {
+    #container{
+        margin: 0 20px;
+      }  
+     
+   
+}
 
 
 
