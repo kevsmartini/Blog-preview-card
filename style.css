@@ -84,8 +84,18 @@
     border-radius: 20px;
     border: solid 1px var(--BlackColor);
     box-shadow: 9px 6px 0px 0px rgb(0, 0, 0);
+    transition: all 1s ease;
     font-family: 'Figtree',sans-serif;
   }
+
+  #container:hover{
+    box-shadow: 12px 10px 10px 0px rgb(0, 0, 0);
+    transition: all 1s ease;
+
+
+
+  }
+
 
   .headerContainer{
     display: flex;
@@ -117,13 +127,14 @@
 
   }
 
-  h2.title{
+  h1.title{
+    font-size: 1.5rem;
     font-weight: 800;
     transition: all 2s ease;
 
   }
 
-  h2.title:hover{
+  h1.title:hover{
     color: var(--YellowColor);
     transition: all .9s ease;
     cursor: pointer;
